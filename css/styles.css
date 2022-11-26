@@ -3,19 +3,19 @@
     --title-text-color:black;
    --accent-color:#18a0fb;
    --primary-white-color:#ffffff;
-       )
-}
+       }
 body{
     background-color: white;
     color: var(--primary-text-color);
+    font-family: 'Raleway','Roboto';
     }
 .logo{
-    color:var(--title-text-color);
+    color:darkviolet;
 }
 .logo:hover , .logo:focus{
-    color:var(--accent-color)
+    color:darkviolet;
 }
-.toplineweb {
+.toplineweb{
     width: 44px;
 height: 24px;
 
@@ -29,6 +29,9 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;   
+}
+.toplineweb:hover,.toplineweb:focus{
+    color: darkviolet;
 }
 .toplinestudio{
     width: 71px;
@@ -56,6 +59,6 @@ color: #2E2F42;
     text-decoration: none;
 }
 
-.section-herro{
+.section-hero{
     
 }
