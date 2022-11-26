@@ -5,25 +5,19 @@
    --primary-white-color:#ffffff;
        }
 body{
+    background-color: #ffffff;
+    color: #2E2F42; 
     font-family: "Roboto",
     font-family:'Raleway';
-    background-color:#FFFFFF;
-    color: var(--primary-text-color);
-    font-family: 'Raleway','Roboto';
+        font-family: 'Raleway','Roboto';
     }
     /* color of background #FFFFFF */
-    /* secondory BG color  ##F4F4F*/
+    /* secondory BG color  #2E2F42*/
     /* color of text NAVE BLUE #2E2F42; */
     /* secondary color of text #434455; */
     /* color of acсent  BG IRIS #4D5AE5;* main text #FFFFFFF/
 
     /* Site link */
-.logo{
-    color:darkviolet;
-}
-.logo:hover , .logo:focus{
-    color:darkviolet;
-}
 .toplineweb{
     width: 44px;
 height: 24px;
@@ -63,7 +57,12 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 color: #2E2F42;
-}.auth-nav{
+}
+.nav-pages{
+
+}
+
+.auth-nav{
 
 }
 .a {
@@ -71,5 +70,16 @@ color: #2E2F42;
 }
 
 .section-hero{
-    
+    background-color: var(--secondory BG color  #2E2F42);
+}
+.hero-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var (NAVI BLUE);
+
 }
