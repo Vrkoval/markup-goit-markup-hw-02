@@ -1,9 +1,61 @@
-.topline {
-    color: #4D5AE5;   
+:root {
+    --primary-text-color:rgba(0,0.0.0);
+    --title-text-color:black;
+   --accent-color:#18a0fb;
+   --primary-white-color:#ffffff;
+       )
 }
+body{
+    background-color: white;
+    color: var(--primary-text-color);
+    }
 .logo{
+    color:var(--title-text-color);
+}
+.logo:hover , .logo:focus{
+    color:var(--accent-color)
+}
+.toplineweb {
+    width: 44px;
+height: 24px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;   
+}
+.toplinestudio{
+    width: 71px;
+height: 24px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 24px;
+color: #2E2F42;
 
 }
+.site-nav a:hover{
+    width: 48px;
+height: 24px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.a {
+    text-decoration: none;
+}
+
 .section-herro{
     
 }
