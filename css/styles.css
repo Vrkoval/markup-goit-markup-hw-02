@@ -18,6 +18,9 @@ body{
     /* color of acсent  BG IRIS #4D5AE5;* main text #FFFFFFF/
 
     /* Site link */
+    ul{
+        list-style: none;
+    }
 .toplineweb{
     width: 44px;
 height: 24px;
@@ -49,7 +52,7 @@ color: #2E2F42;
 .a {
     decoration:underline;
 }
-.site-nav a:hover{
+.site-nav .link:hover{
     width: 48px;
 height: 24px;
 font-family: 'Roboto';
