@@ -49,9 +49,7 @@ font-size: 18px;
 line-height: 1.33;
 color: #2E2F42;
 }
-.a {
-    decoration:underline=none;
-}
+
 .site-nav list{
     font-family: 'Roboto';
     font-style: normal;
@@ -61,21 +59,21 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.site-nav .link:hover, .site-nav .link:focus{
+.site-nav.link:hover, .site-nav.link:focus{
     color: #2E2F42;
     underline: darkviolet;
 }
-   
+ 
 .auth-nav list {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 1.5;
 }
-a {
-    text-decoration: none;
-}
+
+ a {
+    text-decoration: none; }
 
 .section-hero{
     background-color: var(--secondory BG color  #2E2F42);
@@ -104,7 +102,7 @@ a {
     cursor: pointer;
 }
 .button:active {
-background: color:#404BBF;
+/* background: color:#404BBF; */
 color: var(text color);
 }
 /* section */
@@ -133,7 +131,11 @@ color: #434455;
 font-size: 36px;
 line-height: 1.1;
 }
-.article:hover, .article:focus,.names:hover,.names:focus {
+.hero-title:hover,.hero-title:focus,
+.article:hover, .article:focus,
+.names:hover,.names:focus 
+.adventeges-title:hover,.adventeges-title:focus
+{
     color: darkviolet;
     underline: darkviolet;
 }
@@ -142,6 +144,9 @@ line-height: 1.1;
     font-style: normal;
     font-weight: 500;
     color: #2E2F42;
+}
+.work-title:hover,.work-title:focus{
+    underline color: rgb(0,0,255);
 }
 .names{
     /* text-align: center; */
@@ -167,10 +172,10 @@ line-height: 1.16;
 align-items: center; */
 letter-spacing: 0.03em;
 /* text-transform: uppercase; */
+}
 /* Footer */
 footer {
     background: color: var(#2E2F42); 
-}
 }
 .footerstudio {
     font-family: 'Raleway';
