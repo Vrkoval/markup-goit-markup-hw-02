@@ -21,6 +21,8 @@ body{
     ul{
         list-style: none;
     }
+    .link {text-decoration:none;}
+
 .toplineweb{
  width: 44px;
 height: 24px;
