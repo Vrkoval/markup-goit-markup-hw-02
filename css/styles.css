@@ -60,7 +60,7 @@ color: #2E2F42;
 }
 .site-nav.link:hover, .site-nav.link:focus{
     color: #2E2F42;
-    underline: darkviolet;
+    border-inline: darkviolet;
 }
  
 .auth-nav list {
@@ -70,8 +70,6 @@ color: #2E2F42;
     font-size: 16px;
     line-height: 1.5;
 }
- a {
-    text-decoration: none; }
 
 .section-hero{
     background-color: var(--secondory BG color  #2E2F42);
@@ -104,9 +102,7 @@ color: #2E2F42;
 color: var(text color);
 }
 /* section */
-.adventeges{
-
-}
+.adventeges{}
 .adventeges-title {
 font-family: 'Roboto';
 font-style: normal;
@@ -139,7 +135,7 @@ line-height: 1.1;
 .profesion:hover, .profesion:focus
 {
     color: darkviolet;
-    underline: darkviolet;
+    border-inline: rgb(0, 0, 255);
 }
  .adventeges-title,.work-title, .team-title,.names {
     font-family: 'Roboto';
@@ -147,8 +143,8 @@ line-height: 1.1;
     font-weight: 500;
     color: #2E2F42;
 }
-.work-title:hover,.work-title:focus{
-    underline color: rgb(0,0,255);
+.work-title:hover,.work-title:focus, .team-title:hover,  .team-title:focus{
+    border-inline: rgb(0, 0, 255);
 }
 .names{
     /* text-align: center; */
