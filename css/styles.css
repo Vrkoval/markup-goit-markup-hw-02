@@ -36,7 +36,6 @@ text-transform: uppercase; */
 color: #4D5AE5;  
 }
 .toplineweb:hover,.toplineweb:focus{
-    color: rgb(148, 0, 211);
     underline: darkviolet;
 }
 .toplinestudio{
@@ -71,7 +70,6 @@ color: #2E2F42;
     font-size: 16px;
     line-height: 1.5;
 }
-
  a {
     text-decoration: none; }
 
