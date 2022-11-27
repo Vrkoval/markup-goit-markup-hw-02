@@ -7,9 +7,8 @@
 body{
     background-color: #ffffff;
     color: #2E2F42; 
-    font-family: "Roboto",
-    font-family:'Raleway';
-        font-family: 'Raleway','Roboto';
+    font-family: 'Raleway','Roboto';
+    font-style: normal;
     }
     /* color of background #FFFFFF */
     /* secondory BG color  #2E2F42*/
@@ -18,16 +17,16 @@ body{
     /* color of acсent  BG IRIS #4D5AE5;* main text #FFFFFFF/
 
     /* Site link */
-    ul{
+    .list{
         list-style: none;
     }
     .link {text-decoration:none;}
+    .link:hover,.link:focus {color: #2E2F42;}
 
 .toplineweb{
  width: 44px;
 height: 24px;
-font-family: 'Raleway';
-font-style: normal;
+/* font-style: normal; */
 font-weight: 900;
 font-size: 18px;
 line-height: 1.33;
@@ -37,23 +36,19 @@ letter-spacing: 0.03em;
 text-transform: uppercase; */
 color: #4D5AE5;  
 }
-.toplineweb:hover,.toplineweb:focus {
+.toplineweb:hover,.toplineweb:focus {color: ;
     border-inline: darkviolet;
 }
 .toplinestudio{
     width: 71px;
 height: 24px;
-font-family: 'Raleway';
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
 color: #2E2F42;
 }
 
-.site-nav list{
-    font-family: 'Roboto';
-    font-style: normal;
+.site-nav .link{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -61,10 +56,10 @@ color: #2E2F42;
     color: #2E2F42;
 }
 .site-nav.link:hover, .site-nav.link:focus{
-    color: #2E2F42;
-    border-inline: darkviolet;
+    color: darkviolet;
+    /* border-inline: darkviolet;
+ */
 }
- 
 .auth-nav list {
     font-family: 'Roboto';
     font-style: normal;
@@ -104,16 +99,16 @@ color: #2E2F42;
 color: var(text color);
 }
 /* section */
-.adventeges{}
-.adventeges-title {
+
+section-title {
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 }
-.work-title{
+.section-title:hover, .section-title:focus{color: darkviolet;}
+.work >section-title {
     font-size: 36px;
     line-height: 1.1;
 }
@@ -126,20 +121,19 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.team-title{
+.team> section-title{
 font-size: 36px;
 line-height: 1.1;
 }
 .hero-title:hover,.hero-title:focus,
 .article:hover, .article:focus,
 .names:hover,.names:focus, 
-.adventeges-title:hover,.adventeges-title:focus,
 .profesion:hover, .profesion:focus
 {
     color: darkviolet;
     border-inline: rgb(0, 0, 255);
 }
- .adventeges-title,.work-title, .team-title,.names {
+ .work-title, .team-title,.names {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
