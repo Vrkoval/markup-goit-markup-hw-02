@@ -133,8 +133,9 @@ line-height: 1.1;
 }
 .hero-title:hover,.hero-title:focus,
 .article:hover, .article:focus,
-.names:hover,.names:focus 
-.adventeges-title:hover,.adventeges-title:focus
+.names:hover,.names:focus, 
+.adventeges-title:hover,.adventeges-title:focus,
+.profesion:hover, .profesion:focus
 {
     color: darkviolet;
     underline: darkviolet;
