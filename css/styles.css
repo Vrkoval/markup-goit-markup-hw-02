@@ -166,7 +166,7 @@ letter-spacing: 0.03em;
 /* text-transform: uppercase; */
 /* Footer */
 footer {
-    background: color: #2E2F42; 
+    background: color: var(#2E2F42); 
 }
 }
 .footerstudio {
@@ -178,5 +178,14 @@ line-height: 1.16;
 /* align-items: center; */
 letter-spacing: 0.03em;
 /* text-transform: uppercase; */
-color: #F4F4FD;
+color: var(#F4F4FD);
 }
+   .conclusion {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(#E7E9FC);
+   }
