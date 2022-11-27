@@ -22,9 +22,8 @@ body{
         list-style: none;
     }
 .toplineweb{
-    width: 44px;
+ width: 44px;
 height: 24px;
-
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 800;
@@ -37,7 +36,7 @@ text-transform: uppercase; */
 color: #4D5AE5;  
 }
 .toplineweb:hover,.toplineweb:focus{
-    color: darkviolet;
+    color: rgb(148, 0, 211);
 }
 .toplinestudio{
     width: 71px;
@@ -120,10 +119,64 @@ letter-spacing: 0.02em;
     line-height: 1.1;
 }
 .article {
-
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
- .adventeges-title,.work-title, .team-title {
+.team-title{
+font-size: 36px;
+line-height: 1.1;
+}
+.article:hover, .article:focus,.names:hover,.names:focus {
+    color: darkviolet;
+}
+ .adventeges-title,.work-title, .team-title,.names {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
-    color: #2E2F42;}
+    color: #2E2F42;
+}
+.names{
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.profesion{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.footerweb {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+/* display: flex;
+align-items: center; */
+letter-spacing: 0.03em;
+/* text-transform: uppercase; */
+/* Footer */
+footer {
+    background: color: #2E2F42; 
+}
+}
+.footerstudio {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+/* align-items: center; */
+letter-spacing: 0.03em;
+/* text-transform: uppercase; */
+color: #F4F4FD;
+}
