@@ -180,10 +180,6 @@ letter-spacing: 0.03em;
 /* text-transform: uppercase; */
 color: #F4F4FD;
 }
-.footerweb, .footerstudio:hover{
-    color: darkviolet;
-    underline: darkviolet;
-}
 .footerweb:hover, .footerstudio:focus{
     color: darkviolet;
     underline: darkviolet;
