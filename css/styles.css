@@ -1,8 +1,9 @@
 :root {
     --primary-text-color:rgba(0,0.0.0);
-    --title-text-color:black;
+    --title-text-color:#2E2F42;
    --accent-color:#18a0fb;
    --primary-white-color:#ffffff;
+   --second color: #4D5AE5;
        }
 body{
     background-color: #ffffff;
@@ -21,7 +22,7 @@ body{
         list-style: none;
     }
     .link {text-decoration:none;}
-    .link:hover,.link:focus {color: #2E2F42;}
+    .link:hover,.link:focus {color: #4D5AE5;}
 
 .toplineweb{
  width: 44px;
@@ -67,6 +68,8 @@ color: #2E2F42;
     font-size: 16px;
     line-height: 1.5;
 }
+.adresinfo:hover {color:#434455}
+.adresinfo:focus {color:#4D5AE5}
 
 .section-hero{
     background-color: var(--secondory BG color  #2E2F42);
