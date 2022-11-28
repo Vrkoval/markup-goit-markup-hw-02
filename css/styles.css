@@ -1,9 +1,9 @@
 :root {
-    --primary-text-color:rgba(0,0.0.0);
+    --primary-text-color:#434455;;
     --title-text-color:#2E2F42;
    --accent-color:#18a0fb;
    --primary-white-color:#ffffff;
-   --second color: #4D5AE5;
+   --second-color: #4D5AE5;
        }
 body{
     background-color: #ffffff;
@@ -40,10 +40,9 @@ color: #4D5AE5;
 .toplineweb:hover,.toplineweb:focus,.site-nav.link:hover,
 .site-nav.link:focus {
     color:#434455}
-.toplineweb:active,.toplinestudio:active,
- {color: ;
-    color: #4D5AE5;
-}
+.toplineweb:active,.toplinestudio:active
+ {color: #4D5AE5 ;
+   }
 .toplinestudio{
     width: 71px;
 height: 24px;
@@ -68,8 +67,8 @@ color: #2E2F42;
     font-size: 16px;
     line-height: 1.5;
 }
-.adresinfo:hover {color:#434455}
-.adresinfo:focus {color:#4D5AE5}
+.adresinfo:hover,.adresinfo:focus {color:#434455}
+ .adresinfo:active{color:#4D5AE5}
 
 .section-hero{
     background-color: var(--secondory BG color  #2E2F42);
@@ -129,12 +128,14 @@ color: #434455;
 font-size: 36px;
 line-height: 1.1;
 }
-.hero-title:hover,.hero-title:focus,
 .article:hover, .article:focus,
 .names:hover,.names:focus, 
 .profesion:hover, .profesion:focus
 {
     color: #4D5AE5;
+    }
+    .hero-title:hover,.hero-title:focus{
+
     }
  .names {
     font-family: 'Roboto';
