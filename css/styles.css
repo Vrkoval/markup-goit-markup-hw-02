@@ -37,7 +37,11 @@ letter-spacing: 0.03em;
 text-transform: uppercase; */
 color: #4D5AE5;  
 }
-.toplineweb:hover,.toplineweb:focus,.toplineweb:active,.toplinestudio:active {color: ;
+.toplineweb:hover,.toplineweb:focus,.site-nav.link:hover,
+.site-nav.link:focus {
+    color:#434455}
+.toplineweb:active,.toplinestudio:active,
+ {color: ;
     color: #4D5AE5;
 }
 .toplinestudio{
@@ -56,12 +60,8 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.site-nav.link:hover, .site-nav.link:focus{
-    color: darkviolet;
-    /* border-inline: darkviolet;
- */
-}
-.auth-nav list {
+
+    .auth-nav list {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
@@ -103,7 +103,7 @@ color: var(text color);
 }
 /* section */
 
-section-title {
+.section-title {
 font-family: 'Roboto';
 font-weight: 700;
 font-size: 20px;
@@ -111,7 +111,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
-.section-title:hover, .section-title:focus{color: darkviolet;}
+.section-title:hover, .section-title:focus{color: #4D5AE5;}
 .work >section-title {
     font-size: 36px;
     line-height: 1.1;
@@ -134,9 +134,8 @@ line-height: 1.1;
 .names:hover,.names:focus, 
 .profesion:hover, .profesion:focus
 {
-    color: darkviolet;
-    border-inline: rgb(0, 0, 255);
-}
+    color: #4D5AE5;
+    }
  .names {
     font-family: 'Roboto';
     font-style: normal;
@@ -158,7 +157,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 /* Footer */
-.footerweb { color:black;
+.footerweb { color:var(black);
     font-family: 'Raleway';
 font-style: normal;
 font-weight: 900;
@@ -170,7 +169,7 @@ letter-spacing: 0.03em;
 /* text-transform: uppercase; */
 }
 footer {
-    background: color: #2E2F42; 
+    /* background: color: #2E2F42;  */
 }
 .footerstudio {
     font-family: 'Raleway';
@@ -184,9 +183,8 @@ letter-spacing: 0.03em;
 color: #F4F4FD;
 }
 .footerweb:hover, .footerstudio:focus{
-    color: darkviolet;
-    underline: darkviolet;
-}
+    color: #4D5AE5;
+    }
    .conclusion {
     font-family: 'Roboto';
     font-style: normal;
