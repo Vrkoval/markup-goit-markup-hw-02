@@ -37,8 +37,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase; */
 color: #4D5AE5;  
 }
-.toplineweb:hover,.toplineweb:focus {color: ;
-    border-inline: darkviolet;
+.toplineweb:hover,.toplineweb:focus,.toplineweb:active,.toplinestudio:active {color: ;
+    color: #4D5AE5;
 }
 .toplinestudio{
     width: 71px;
