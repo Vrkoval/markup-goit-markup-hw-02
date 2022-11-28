@@ -22,7 +22,7 @@ body{
     ul{
         list-style: none;
     }
-    .link {text-decoration:none;}
+    a {text-decoration:none;}
     .link:hover,.link:focus {color: #4D5AE5;}
 
 .toplineweb{
@@ -102,6 +102,8 @@ color: var(--accent-color);
 }
 .button.primary {background-color: var(--second-color) ; 
     color:var(--primary-white-color)}
+.button.secondary {background-color: {var(--primary-white-color)};
+color: #4D5AE5;}
 
 /* section */
 
