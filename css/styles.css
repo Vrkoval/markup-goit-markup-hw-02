@@ -155,7 +155,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 /* Footer */
-.footerweb {
+.footerweb { color:black;
     font-family: 'Raleway';
 font-style: normal;
 font-weight: 900;
@@ -184,7 +184,7 @@ color: #F4F4FD;
     color: darkviolet;
     underline: darkviolet;
 }
-.footerweb, .footerstudio:focus{
+.footerweb:hover, .footerstudio:focus{
     color: darkviolet;
     underline: darkviolet;
 }
