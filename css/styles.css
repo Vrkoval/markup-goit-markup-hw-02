@@ -18,7 +18,7 @@ body{
     /* color of acсent  BG IRIS #4D5AE5;* main text #FFFFFFF/
 
     /* Site link */
-    .list{
+    ul{
         list-style: none;
     }
     .link {text-decoration:none;}
