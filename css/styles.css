@@ -10,6 +10,7 @@ body{
     color: #2E2F42; 
     font-family: 'Raleway','Roboto';
     font-style: normal;
+
     }
     /* color of background #FFFFFF */
     /* secondory BG color  #2E2F42*/
@@ -87,7 +88,6 @@ color: #2E2F42;
 .button {
     background:color: var(--accent-color);
     color: var(--priprimary-white-color);
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height:1,19;
@@ -98,7 +98,7 @@ color: #2E2F42;
 }
 .button:active {
 /* background: color:#404BBF; */
-color: var(text color);
+color: var(--accent-color);
 }
 /* section */
 
@@ -149,7 +149,6 @@ line-height: 1.1;
 }
 .profesion{
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -160,7 +159,6 @@ color: #434455;
 /* Footer */
 .footerweb { color:var(black);
     font-family: 'Raleway';
-font-style: normal;
 font-weight: 900;
 font-size: 18px;
 line-height: 1.16;
@@ -174,7 +172,6 @@ footer {
 }
 .footerstudio {
     font-family: 'Raleway';
-font-style: normal;
 font-weight: 900;
 font-size: 18px;
 line-height: 1.16;
@@ -188,7 +185,6 @@ color: #F4F4FD;
     }
    .conclusion {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
