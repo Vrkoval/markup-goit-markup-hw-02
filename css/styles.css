@@ -106,6 +106,7 @@ font-weight: 700;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+color: #2E2F42;
 }
 .section-title:hover, .section-title:focus{color: darkviolet;}
 .work >section-title {
@@ -115,13 +116,13 @@ letter-spacing: 0.02em;
 .article {
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.team> section-title{
+.team > section-title{
 font-size: 36px;
 line-height: 1.1;
 }
@@ -133,14 +134,11 @@ line-height: 1.1;
     color: darkviolet;
     border-inline: rgb(0, 0, 255);
 }
- .work-title, .team-title,.names {
+ .names {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     color: #2E2F42;
-}
-.work-title:hover,.work-title:focus, .team-title:hover,  .team-title:focus{
-    border-inline: rgb(0, 0, 255);
 }
 .names{
     /* text-align: center; */
@@ -156,6 +154,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+/* Footer */
 .footerweb {
     font-family: 'Raleway';
 font-style: normal;
@@ -167,9 +166,8 @@ align-items: center; */
 letter-spacing: 0.03em;
 /* text-transform: uppercase; */
 }
-/* Footer */
 footer {
-    background: color: var(#2E2F42); 
+    background: color: #2E2F42; 
 }
 .footerstudio {
     font-family: 'Raleway';
@@ -180,7 +178,7 @@ line-height: 1.16;
 /* align-items: center; */
 letter-spacing: 0.03em;
 /* text-transform: uppercase; */
-color: var(#F4F4FD);
+color: #F4F4FD;
 }
 .footerweb, .footerstudio:hover{
     color: darkviolet;
@@ -197,5 +195,5 @@ color: var(#F4F4FD);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(#E7E9FC);
+    color:#E7E9FC;
    }
