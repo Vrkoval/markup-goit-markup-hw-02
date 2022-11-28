@@ -86,20 +86,23 @@ color: #2E2F42;
 
 }
 .button {
-    background:color: var(--accent-color);
+    background-color: #4D5AE5; 
     color: var(--priprimary-white-color);
     font-weight: 500;
     font-size: 16px;
     line-height:1,19;
-    display: flex;
+    /* display: flex; */
     /* align-items:center; */
     letter-spacing: 0.04em;
     cursor: pointer;
 }
 .button:active {
-/* background: color:#404BBF; */
+
 color: var(--accent-color);
 }
+.button.primary {background-color: var(--second-color) ; 
+    color:var(--primary-white-color)}
+
 /* section */
 
 .section-title {
