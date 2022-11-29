@@ -14,31 +14,23 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em
     }
-       /* Site link */
-    ul{
+       ul{
         list-style: none;
     }
     a {text-decoration:none;}
     a.link:hover,a.link:focus {color: #4D5AE5;}
-
 .toplineweb{
  width: 44px;
 height: 24px;
 font-weight: 900;
 font-size: 18px;
 line-height: 1.33;
-/* display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase; */
 color: #4D5AE5;  
 }
 .toplineweb:hover,.toplineweb:focus,.site-nav.link:hover,
-.site-nav.link:focus {
-    color:#434455}
+.site-nav.link:focus {    color:#434455}
 .toplineweb:active,.toplinestudio:active
- {color: #4D5AE5 ;
-   }
+ {color: #4D5AE5 ;   }
 .toplinestudio{
     width: 71px;
 height: 24px;
