@@ -146,8 +146,7 @@ letter-spacing: 0.03em;
 /* text-transform: uppercase; */
 }
 footer {
-    /* background: color: #2E2F42;  */
-}
+    background-color: #2E2F42; }
 .footerstudio {
     font-family: 'Raleway';
 font-weight: 900;
