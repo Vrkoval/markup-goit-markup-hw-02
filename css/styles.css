@@ -165,3 +165,17 @@ color: #F4F4FD;
     font-family: 'Roboto';
     color:#E7E9FC;
    }
+   /* Portfolio */
+.project-cards {
+
+}
+.project-list {}
+.prcards {font-family: 'Roboto'; }
+.examples {font-family: 'Roboto';
+    font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+}
+.filtres {color: #434455;
+}
+.examples:hover,. .examples:focus,.adresinfo:hover, .filtres:hover, .filtres:focus {color: #4D5AE5;}
