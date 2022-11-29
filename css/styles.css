@@ -27,13 +27,13 @@ body{
         letter-spacing: 0.03em;
         text-transform: uppercase;
     }    
-    a.link:hover,a.link:focus {color: var(--link-color)}
-.toplineweb {
+    /* a.link:hover,a.link:focus {color: var(--link-color)}
+.toplineweb { */
      color: var(--link-color);  
  /* width: 44px;
-height: 24px; */
-        }
-.toplineweb:hover,.toplineweb:focus,.site-nav.link:hover,
+height: 24px;
+        } */
+/* .toplineweb:hover,.toplineweb:focus,.site-nav.link:hover,
 .site-nav.link:focus {    color:var(--primary-text-color)}
 .toplineweb:active,.toplinestudio:active
     {color: var(--link-color) ;   }
@@ -41,8 +41,8 @@ height: 24px; */
     /* width: 71px;
 height: 24px; */
 color: var(--primary-text-color);
-}
-.link {
+} */
+link {
     color: var(--primary-text-color);
 }
     .auth-nav list {
