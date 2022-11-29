@@ -19,7 +19,7 @@ body{
     }
     a {text-decoration:none;}
     .logo {
-        color: var(--primary-text-color);
+        color: var(--link-color);
         font-family: "Raleway",sans-serif;
         font-weight: 800;
         font-size: 18px;
