@@ -51,8 +51,9 @@ color: var(--primary-text-color);
 .adresinfo:hover,.adresinfo:focus {color:var(--primary-text-color)}
  .adresinfo:active{color:#var(--link-color)}
 
-.section-hero{
+.hero {
     background-color: var(--primary-text-color);
+    text-align: center;
 }
 .hero-title{    
     font-size: 56px;
