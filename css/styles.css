@@ -51,7 +51,7 @@ color: #2E2F42;
  .adresinfo:active{color:#4D5AE5}
 
 .section-hero{
-    background-color:  color  #2E2F42;
+    background-color: #2E2F42;
 }
 .hero-title{
     font-family: 'Roboto';
@@ -59,7 +59,7 @@ color: #2E2F42;
     font-size: 56px;
     line-height:1.07;
     text-align: center;
-    color: var (NAVI BLUE);
+    color: BLUE;
 
 }
 .button {
@@ -73,8 +73,7 @@ color: #2E2F42;
     cursor: pointer;
 }
 .button:hover, .button:focus {color:#4D5AE5 };
-.button:active {color: #404BBF);
-}
+.button:active { color: #404BBF;}
 .button.primary {background-color: var(--second-color) ; 
     color:var(--primary-white-color)}
 .button.secondary {background-color: var(--primary-white-color);
