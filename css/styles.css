@@ -21,35 +21,37 @@ body{
     .logo {
         color: var(--primary-text-color);
         font-family: "Raleway",sans-serif;
-        font-weight: 700;
+        font-weight: 800;
         font-size: 18px;
         line-height: 1.33;
         letter-spacing: 0.03em;
         text-transform: uppercase;
     }    
     a.link:hover,a.link:focus {color: var(--link-color)}
-.toplineweb{
+.toplineweb {
+     color: var(--link-color);  
  /* width: 44px;
 height: 24px; */
-color: var(--link-color);  
-}
+        }
 .toplineweb:hover,.toplineweb:focus,.site-nav.link:hover,
 .site-nav.link:focus {    color:var(--primary-text-color)}
 .toplineweb:active,.toplinestudio:active
- {color: var(--link-color) ;   }
+    {color: var(--link-color) ;   }
 .toplinestudio{
     /* width: 71px;
 height: 24px; */
 color: var(--primary-text-color);
 }
-.site-nav .link{
+.link {
     color: var(--primary-text-color);
 }
     .auth-nav list {
         color:var(--primary-text-color);
    }
 .adresinfo:hover,.adresinfo:focus {color:var(--primary-text-color)}
- .adresinfo:active{color: var(--link-color)}
+ .adresinfo:active{
+    color: var(--link-color)
+}
 
 .hero {
     background-color: var(--primary-text-color);
