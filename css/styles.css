@@ -25,56 +25,45 @@ body{
         font-size: 18px;
         line-height: 1.33;
         letter-spacing: 0.03em;
-        text-decoration: none;
         text-transform: uppercase;
     }    
     a.link:hover,a.link:focus {color: var(--link-color)}
 .toplineweb{
- width: 44px;
-height: 24px;
-font-weight: 900;
-font-size: 18px;
-line-height: 1.33;
+ /* width: 44px;
+height: 24px; */
 color: var(--link-color);  
 }
 .toplineweb:hover,.toplineweb:focus,.site-nav.link:hover,
-.site-nav.link:focus {    color:#434455}
+.site-nav.link:focus {    color:var(--primary-text-color)}
 .toplineweb:active,.toplinestudio:active
  {color: var(--link-color) ;   }
 .toplinestudio{
-    width: 71px;
-height: 24px;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-color: #2E2F42;
+    /* width: 71px;
+height: 24px; */
+color: var(--primary-text-color);
 }
 .site-nav .link{
-    font-weight: 500;
-    color: #2E2F42;
+    color: var(--primary-text-color);
 }
     .auth-nav list {
-    font-family: 'Roboto';
-    font-weight: 300;
+        color:var(--primary-text-color);
    }
-.adresinfo:hover,.adresinfo:focus {color:#434455}
+.adresinfo:hover,.adresinfo:focus {color:var(--primary-text-color)}
  .adresinfo:active{color:#var(--link-color)}
 
 .section-hero{
-    background-color: #2E2F42;
+    background-color: var(--primary-text-color);
 }
-.hero-title{background-color: #2E2F42;
-    font-family: 'Roboto';
-    font-weight: 500;
+.hero-title{    
     font-size: 56px;
     line-height:1.07;
     text-align: center;
-    color: #FFFFFF;
-
+    color: var(--primary-white-color);
 }
 .button {
-    background-color: var(--link-color); 
+    background-color: var(--link-color); cursor: pointer;
     color: var(--priprimary-white-color);
+    font-family: inherit;
     font-weight: 500;
     line-height:1.19;
     /* display: flex; */
@@ -83,14 +72,14 @@ color: #2E2F42;
     cursor: pointer;
 }
 .button:hover, .button:focus {color:var(--link-color) };
-.button:active { color: #404BBF;}
-.button.primary {background-color: var(--second-color) ; 
+.button:active { background-color: #404BBF;}
+.button.primary {
+    background-color: var(--link-color:) ; 
     color:var(--primary-white-color)}
 .button.secondary {background-color: var(--primary-white-color);
-color: #4D5AE5;}
+color: var(--link-color);}
 
 
-.button
 /* section */
 
 .section-title {
@@ -100,7 +89,7 @@ font-size: 20px;
 line-height: 1.2;
 color: #2E2F42;
 }
-.section-title:hover, .section-title:focus{color: #4D5AE5;}
+.section-title:hover, .section-title:focus{color: var(--link-color);}
 .work >section-title {
     font-size: 36px;
     line-height: 1.1;
