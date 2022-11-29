@@ -27,7 +27,7 @@ body{
         letter-spacing: 0.03em;
         text-transform: uppercase;
     }    
-    .link:hover,.link:focus {color: var(--link-color)} 
+    
 .logoweb { 
      color: var(--link-color); } 
  .logostudio{
@@ -39,7 +39,9 @@ body{
     font-size: 16px;
     line-height: 1.5;
 }
-    .auth-nav list {
+.link:hover,.link:focus {color: var(--link-color)} 
+    
+.auth-nav list {
         color:var(--primary-text-color);
    }
 .adresinfo:hover,.adresinfo:focus {color:var(--primary-text-color)}
