@@ -59,13 +59,13 @@ color: #2E2F42;
  .adresinfo:active{color:#4D5AE5}
 
 .section-hero{
-    background-color: var(--secondory BG color  #2E2F42);
+    background-color:  color  #2E2F42;
 }
 .hero-title{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 56px;
-    line-height:1,07;
+    line-height:1.07;
     text-align: center;
     color: var (NAVI BLUE);
 
@@ -74,7 +74,7 @@ color: #2E2F42;
     background-color: #4D5AE5; 
     color: var(--priprimary-white-color);
     font-weight: 500;
-    line-height:1,19;
+    line-height:1.19;
     /* display: flex; */
     /* align-items:center; */
     letter-spacing: 0.04em;
@@ -136,7 +136,7 @@ line-height: 1.1;
 color: #434455;
 }
 /* Footer */
-.footerweb { color:var(black);
+.footerweb { color:black;
     font-family: 'Raleway';
 font-weight: 900;
 font-size: 18px;
