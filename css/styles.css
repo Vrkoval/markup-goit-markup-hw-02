@@ -17,7 +17,7 @@ body{
        ul{
         list-style: none;
     }
-    .link {text-decoration:none;}
+    a {text-decoration:none;}
     .logo {
         color: var(--link-color);
         font-family: "Raleway",sans-serif;
@@ -35,6 +35,9 @@ body{
  }
 .link {
     color: var(--primary-text-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
 }
     .auth-nav list {
         color:var(--primary-text-color);
