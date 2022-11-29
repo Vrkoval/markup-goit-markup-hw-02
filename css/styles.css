@@ -80,15 +80,16 @@ color: #2E2F42;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.button:active {
-
-color: var(--accent-color);
+.button:hover, .button:focus {color: var(--second-color)};
+.button:active {color: #404BBF);
 }
 .button.primary {background-color: var(--second-color) ; 
     color:var(--primary-white-color)}
-.button.secondary {background-color: {var(--primary-white-color)};
+.button.secondary {background-color: var(--primary-white-color);
 color: #4D5AE5;}
 
+
+.button
 /* section */
 
 .section-title {
