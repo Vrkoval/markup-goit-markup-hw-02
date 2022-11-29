@@ -48,16 +48,20 @@ body{
 text-decoration: none;}
  
 
-/* .hero {
+.solution {
     background-color: var(--primary-text-color);
     text-align: center;
+    
+    font-size: 56px;
+    line-height: 1.07;
 }
-.hero-title{    
+.solution-title{ 
+    font-weight: 600;   
     font-size: 56px;
     line-height:1.07;
     text-align: center;
     color: var(--primary-white-color);
-} */
+}
 .button {
     font-family: inherit;
     background-color: var(--link-color); 
