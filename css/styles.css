@@ -49,7 +49,7 @@ color: var(--primary-text-color);
         color:var(--primary-text-color);
    }
 .adresinfo:hover,.adresinfo:focus {color:var(--primary-text-color)}
- .adresinfo:active{color:#var(--link-color)}
+ .adresinfo:active{color: var(--link-color)}
 
 .hero {
     background-color: var(--primary-text-color);
@@ -62,22 +62,22 @@ color: var(--primary-text-color);
     color: var(--primary-white-color);
 }
 .button {
-    background-color: var(--link-color); cursor: pointer;
-    color: var(--priprimary-white-color);
     font-family: inherit;
+    background-color: var(--link-color); 
+    color: var(--priprimary-white-color);
     font-weight: 500;
     line-height:1.19;
-    /* display: flex; */
-    /* align-items:center; */
     letter-spacing: 0.04em;
     cursor: pointer;
 }
 .button:hover, .button:focus {color:var(--link-color) };
-.button:active { background-color: #404BBF;}
+.button:active { 
+    background-color: #404BBF;}
 .button.primary {
     background-color: var(--link-color:) ; 
     color:var(--primary-white-color)}
-.button.secondary {background-color: var(--primary-white-color);
+.button.secondary 
+{background-color: var(--primary-white-color);
 color: var(--link-color);}
 
 
