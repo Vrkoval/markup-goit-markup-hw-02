@@ -71,7 +71,7 @@ text-decoration: none;}
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.button:hover, .button:focus {color:var(--link-color) };
+/* .button:hover, .button:focus {color:var(--link-color) };
 .button:active { 
     background-color: #404BBF;}
 .button.primary {
@@ -79,7 +79,7 @@ text-decoration: none;}
     color:var(--primary-white-color)}
 .button.secondary 
 {background-color: var(--primary-white-color);
-color: var(--link-color);} 
+color: var(--link-color);}  */
 
 /* section */
 
@@ -88,7 +88,7 @@ font-family: 'Roboto';
 font-weight: 700;
 font-size: 20px;
 line-height: 1.2;
-color: #2E2F42;
+color: var(--primary-text-color);
 }
 
 .work >section-title {
