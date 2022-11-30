@@ -70,28 +70,13 @@ color: var(--primary-white-color);
 .button:hover, .button:focus {color:var(--link-color) };
 .button:active { 
     background-color: #404BBF;}
-/* .button-name{
-       font-size: 16px;
-    line-height: 1.17;
-/* identical to box height */
-/* display: flex; */
-align-items: center;
-letter-spacing: 0.04em;
-color: var(--primary-white-color); */
 
-    /* }
-.button.primary {
-    background-color: var(--link-color) ; 
-    color:var(--primary-white-color)}
-.button.secondary 
-{background-color: var(--primary-white-color);
-color: var(--link-color);}  */
-
+.feature{display: none;}
+    
 .section-title {
-font-family: 'Roboto';
-font-weight: 700;
-font-size: 20px;
-line-height: 1.2;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
 color: var(--primary-text-color);
 }
 
@@ -99,11 +84,7 @@ color: var(--primary-text-color);
     font-size: 36px;
     line-height: 1.1;
 }
-.article {
-font-family: 'Roboto';
-font-weight: 300;
-color: #434455;
-}
+.
 .team > section-title{
 font-size: 36px;
 line-height: 1.1;
