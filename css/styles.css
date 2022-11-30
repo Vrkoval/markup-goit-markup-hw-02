@@ -64,7 +64,7 @@ text-decoration: none;}
     background-color: var(--primary-text-color);
 }
 .button {
-    font-family: inherit;
+    /* font-family: inherit; */
     background-color: var(--link-color); 
     color: var(--priprimary-white-color);
     font-weight: 500;
@@ -116,10 +116,10 @@ line-height: 1.1;
 .profesion{
     font-family: 'Roboto';
 /* text-align: center; */
-color: #434455;
+color: var(--primary-text-color);
 }
 /* Footer */
-.footerweb { color:black;
+.footerweb { color:var(--primary-text-color);
     font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
@@ -130,7 +130,7 @@ letter-spacing: 0.03em;
 /* text-transform: uppercase; */
 }
 footer {
-    background-color: #2E2F42; }
+    background-color: var(--primary-text-color); }
 .footerstudio {
     font-family: 'Raleway';
 font-weight: 800;
@@ -156,5 +156,5 @@ color: #F4F4FD;
     font-weight: 600;
 font-size: 20px;
 line-height:1.2 ;}
-.filtres {color: #434455;
+.filtres {color: var(--primary-text-color);
 }
