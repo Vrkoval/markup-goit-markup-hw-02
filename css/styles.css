@@ -45,7 +45,6 @@ body{
 .adresinfo:hover,.adresinfo:focus {color:var(--link-color);
 text-decoration: none;}
  
-
 .hero {
     background-color: var(--primary-text-color);
     text-align: center;
