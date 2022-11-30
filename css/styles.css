@@ -53,7 +53,7 @@ text-decoration: none;}
     text-align: center;
     font-size: 56px;
     line-height: 1.07;
-    color: var(--primary-white-color);
+    /* color: var(--primary-white-color); */
 }
 .solution-title{ 
     font-weight: 600;   
@@ -74,12 +74,12 @@ text-decoration: none;}
 .button:hover, .button:focus {color:var(--link-color) };
 .button:active { 
     background-color: #404BBF;}
-.button.primary {
+/* .button.primary {
     background-color: var(--link-color:) ; 
     color:var(--primary-white-color)}
 .button.secondary 
 {background-color: var(--primary-white-color);
-color: var(--link-color);}
+color: var(--link-color);} */
 
 
 /* section */
