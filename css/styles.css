@@ -89,7 +89,7 @@ letter-spacing: 0.02em;
 /* text-transform: capitalize; */
 color: var(--title-text-color);
 }
-.team > section-title{
+.team-title{
 font-size: 36px;
 line-height: 1.1;
 text-align: center;
