@@ -76,7 +76,7 @@ text-decoration: none;}
 .button:active { 
     background-color: #404BBF;}
 .button.primary {
-    background-color: var(--link-color:) ; 
+    background-color: var(--link-color) ; 
     color:var(--primary-white-color)}
 .button.secondary 
 {background-color: var(--primary-white-color);
@@ -103,8 +103,7 @@ color: #434455;
 font-size: 36px;
 line-height: 1.1;
 }
-
-    
+   
  .names {
     font-family: 'Roboto';
     font-weight: 500;
