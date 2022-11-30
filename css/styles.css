@@ -61,7 +61,7 @@ text-decoration: none;}
     background-color: var(--primary-text-color);
 }
 .button {
-    font-family: inherit;
+    /* font-family: inherit; */
     background-color: var(--link-color); 
     color: var(--priprimary-white-color);
     font-weight: 500;
@@ -72,6 +72,17 @@ text-decoration: none;}
 .button:hover, .button:focus {color:var(--link-color) };
 .button:active { 
     background-color: #404BBF;}
+    .button-name{
+       font-size: 16px;
+    line-height: 1.17;
+/* identical to box height */
+
+/* display: flex; */
+align-items: center;
+letter-spacing: 0.04em;
+color: var(--primary-white-color);
+
+    }
 .button.primary {
     background-color: var(--link-color) ; 
     color:var(--primary-white-color)}
