@@ -74,13 +74,12 @@ text-decoration: none;}
 .button:hover, .button:focus {color:var(--link-color) };
 .button:active { 
     background-color: #404BBF;}
-/* .button.primary {
+.button.primary {
     background-color: var(--link-color:) ; 
     color:var(--primary-white-color)}
 .button.secondary 
 {background-color: var(--primary-white-color);
-color: var(--link-color);} */
-
+color: var(--link-color);} 
 
 /* section */
 
@@ -149,8 +148,8 @@ color: #F4F4FD;
     color:#E7E9FC;
    }
    /* Portfolio */
-.project-cards {}
-.project-list {}
+/* .project-cards {}
+.project-list {} */
 .prcards {font-family: 'Roboto'; }
 .examples {font-family: 'Roboto';
     font-weight: 600;
