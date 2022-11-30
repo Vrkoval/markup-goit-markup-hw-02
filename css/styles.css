@@ -91,7 +91,7 @@ font-size: 20px;
 line-height: 1.2;
 color: #2E2F42;
 }
-.section-title:hover, .section-title:focus{color: var(--link-color);}
+
 .work >section-title {
     font-size: 36px;
     line-height: 1.1;
@@ -105,23 +105,14 @@ color: #434455;
 font-size: 36px;
 line-height: 1.1;
 }
-.article:hover, .article:focus,
-.names:hover,.names:focus, 
-.profesion:hover, .profesion:focus
-{
-    color: var(--link-color);
-    }
-    .hero-title:hover,.hero-title:focus{
 
-    }
+    
  .names {
     font-family: 'Roboto';
     font-weight: 500;
     color: #2E2F42;
 }
-.names{
-    /* text-align: center; */
-    }
+
 .profesion{
     font-family: 'Roboto';
 /* text-align: center; */
@@ -130,7 +121,7 @@ color: #434455;
 /* Footer */
 .footerweb { color:black;
     font-family: 'Raleway';
-font-weight: 900;
+font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
 /* display: flex;
@@ -142,7 +133,7 @@ footer {
     background-color: #2E2F42; }
 .footerstudio {
     font-family: 'Raleway';
-font-weight: 900;
+font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
 /* align-items: center; */
@@ -167,4 +158,3 @@ font-size: 20px;
 line-height:1.2 ;}
 .filtres {color: #434455;
 }
-.examples:hover,.examples:focus, .filtres:hover, .filtres:focus {color: var(--link-color);}
