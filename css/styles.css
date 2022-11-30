@@ -51,9 +51,9 @@ text-decoration: none;}
 .solution {
     background-color: var(--primary-text-color);
     text-align: center;
-    
     font-size: 56px;
     line-height: 1.07;
+    color: var(--primary-white-color);
 }
 .solution-title{ 
     font-weight: 600;   
