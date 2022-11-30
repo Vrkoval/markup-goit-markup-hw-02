@@ -4,7 +4,7 @@
    --accent-color:#18a0fb;
    --primary-white-color:#ffffff;
    --link-color: #4D5AE5;
-          }
+            }
 body{
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
@@ -48,35 +48,30 @@ text-decoration: none;}
 .hero {
     background-color: var(--primary-text-color);
     text-align: center;
-    font-size: 56px;
-    line-height: 1.07;
-    color: var(--primary-white-color); 
-} 
+  
+}
 .hero-title{ 
     font-weight: 600;   
     font-size: 56px;
     line-height:1.07;
-    text-align: center;
-    color: var(--primary-white-color);
-    background-color: var(--primary-text-color);
-}
+    }
 .button {
     /* font-family: inherit; */
-    background-color: var(--link-color); 
-    color: var(--priprimary-white-color);
-    font-weight: 500;
+    /* background-color: var(--link-color);  */
+    color: var(--primary-white-color);
+    font-size: 16px;
     line-height:1.19;
     letter-spacing: 0.04em;
     cursor: pointer;
+    background-color: var(--link-color);
 }
 .button:hover, .button:focus {color:var(--link-color) };
 .button:active { 
     background-color: #404BBF;}
-    .button-name{
+.button-name{
        font-size: 16px;
     line-height: 1.17;
 /* identical to box height */
-
 /* display: flex; */
 align-items: center;
 letter-spacing: 0.04em;
