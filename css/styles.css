@@ -55,7 +55,6 @@ text-decoration: none;}
     line-height:1.07;
     text-align: center;
 letter-spacing: 0.02em;
-
 color: var(--primary-white-color);
     }
 .button {
@@ -71,22 +70,22 @@ color: var(--primary-white-color);
 .button:hover, .button:focus {color:var(--link-color) };
 .button:active { 
     background-color: #404BBF;}
-.button-name{
+/* .button-name{
        font-size: 16px;
     line-height: 1.17;
 /* identical to box height */
 /* display: flex; */
 align-items: center;
 letter-spacing: 0.04em;
-color: var(--primary-white-color);
+color: var(--primary-white-color); */
 
-    }
+    /* }
 .button.primary {
     background-color: var(--link-color) ; 
     color:var(--primary-white-color)}
 .button.secondary 
 {background-color: var(--primary-white-color);
-color: var(--link-color);} 
+color: var(--link-color);}  */
 
 .section-title {
 font-family: 'Roboto';
