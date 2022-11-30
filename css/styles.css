@@ -49,9 +49,11 @@ text-decoration: none;}
     background-color: var(--primary-text-color);
     text-align: center;
   }
+  .title{
+    font-weight: 600;  
+  }
 .hero-title{ 
-    font-weight: 600;   
-    font-size: 56px;
+     font-size: 56px;
     line-height:1.07;
     text-align: center;
 letter-spacing: 0.02em;
@@ -74,17 +76,19 @@ color: var(--primary-white-color);
 .feature{display: none;}
     
 .section-title {
-    font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
 color: var(--primary-text-color);
 }
 
-.work >section-title {
-    font-size: 36px;
-    line-height: 1.1;
+.work-title {
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.02em;
+/* text-transform: capitalize; */
+color: var(--title-text-color);
 }
-.
 .team > section-title{
 font-size: 36px;
 line-height: 1.1;
