@@ -146,8 +146,35 @@ color: var(--primary-white-color);
 
    /* Portfolio */
    .portfolio{ display: none};
-   
-   .portfolio-
+
+   .porfolio-button {
+    background-color: #E7E9FC;
+    border: 1px solid #E7E9FC;
+    
+    font-family: inherit;
+    color: var(--link-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    
+    cursor: pointer;
+}
+
+.porfolio-button:hover,
+.porfolio-button:focus {
+    background-color: var(--link-color);
+    color: var(--main-background-color);
+} 
+
+.work-card-title {
+    color: var(--main-title-color);
+    
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 .prcards {font-family: 'Roboto'; }
 .examples {font-family: 'Roboto';
     font-weight: 600;
