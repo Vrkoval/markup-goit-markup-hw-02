@@ -4,6 +4,7 @@
    --accent-color:#18a0fb;
    --primary-white-color:#ffffff;
    --link-color: #4D5AE5;
+   --secondary-bg-color:#F4F4FD;
             }
 body{
     background-color: var(--primary-white-color);
@@ -86,17 +87,26 @@ font-size: 36px;
 line-height: 1.1;
 text-align: center;
 letter-spacing: 0.02em;
-/* text-transform: capitalize; */
+text-transform: capitalize;
 color: var(--title-text-color);
+}
+.team{
+    background-color: var(--secondary-bg-color);
 }
 .team-title{
 font-size: 36px;
 line-height: 1.1;
 text-align: center;
+text-transform: capitalize;
 letter-spacing: 0.02em;
 color: var(--title-text-color);
 }
-   
+  .team-foto{
+    background-color: var(--primary-white-color);
+    width: 264px;
+    text-align: center;
+  }
+  
  .names {
     font-family: 'Roboto';
     font-weight: 500;
