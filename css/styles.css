@@ -150,8 +150,7 @@ color: var(--primary-white-color);
    .porfolio-button {
     background-color: #E7E9FC;
     border: 1px solid #E7E9FC;
-    
-    font-family: inherit;
+        font-family: inherit;
     color: var(--link-color);
     font-weight: 600;
     font-size: 16px;
@@ -175,10 +174,7 @@ color: var(--primary-white-color);
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.prcards {font-family: 'Roboto'; }
 
 
 
-.filtres {color: var(--primary-text-color);
-}
     
