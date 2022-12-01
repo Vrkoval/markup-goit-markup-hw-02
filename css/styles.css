@@ -138,9 +138,12 @@ line-height: 1.16;
 /* align-items: center; */
 letter-spacing: 0.03em;
  text-transform: uppercase; 
-color: var(--primary-white-color);
+color: var(--link-color);
 }
-.footerweb:hover, .footerstudio:focus{
+.logoname {
+    color: var(--primary-white-color);
+}
+.logorweb:hover, .logoname:focus{
     color: var(--link-color);
     }
    .conclusion {
