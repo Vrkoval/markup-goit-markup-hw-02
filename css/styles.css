@@ -113,11 +113,6 @@ color: var(--title-text-color);
      text-align: center;
 }
 
-.profesion{
-    font-family: 'Roboto';
-/* text-align: center; */
-color: var(--primary-text-color);
-}
 /* Footer */
 .footerweb { color:var(--primary-text-color);
     font-family: 'Raleway';
