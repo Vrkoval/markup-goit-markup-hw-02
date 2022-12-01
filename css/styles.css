@@ -165,7 +165,7 @@ color: var(--primary-white-color);
 .porfolio-button:hover,
 .porfolio-button:focus {
     background-color: var(--link-color);
-    color: var(--main-background-color);
+    color: var(--primary-white-color);
 } 
 
 .work-card-title {
