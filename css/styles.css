@@ -125,15 +125,18 @@ letter-spacing: 0.03em;
 /* text-transform: uppercase; */
 }
 footer {
-    background-color: var(--primary-text-color); }
-.footerstudio {
-    font-family: 'Raleway';
+    background-color: var(--primary-text-color); 
+color: var( --title-text-color);
+}
+
+.logoname {
+font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
 /* align-items: center; */
 letter-spacing: 0.03em;
-/* text-transform: uppercase; */
+ text-transform: uppercase; 
 color: var(--primary-white-color);
 }
 .footerweb:hover, .footerstudio:focus{
