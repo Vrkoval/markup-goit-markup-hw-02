@@ -168,7 +168,7 @@ color: var(--primary-white-color);
     color: var(--primary-white-color);
 } 
 
-.examples-title {
+.examples title {
     color: var(--title-text-color);
     
     font-size: 20px;
