@@ -168,18 +168,17 @@ color: var(--primary-white-color);
     color: var(--primary-white-color);
 } 
 
-.work-card-title {
-    color: var(--main-title-color);
+.examples-title {
+    color: var(--title-text-color);
     
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .prcards {font-family: 'Roboto'; }
-.examples {font-family: 'Roboto';
-    font-weight: 600;
-font-size: 20px;
-line-height:1.2 ;}
+
+
+
 .filtres {color: var(--primary-text-color);
 }
     
