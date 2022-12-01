@@ -139,9 +139,11 @@ line-height: 1.16;
 letter-spacing: 0.03em;
  text-transform: uppercase; 
 color: var(--link-color);
+text-decoration: none;
 }
 .logoname {
     color: var(--primary-white-color);
+    text-decoration: none;
 }
 .logorweb:hover, .logoname:focus{
     color: var(--link-color);
@@ -150,9 +152,7 @@ color: var(--link-color);
     font-family: 'Roboto';
     color:#E7E9FC;
    }
-   a {
-    text-decoration: none;
-  }
+   
    /* Portfolio */
    .portfolio{ display: none};
 
