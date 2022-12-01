@@ -150,7 +150,9 @@ color: var(--link-color);
     font-family: 'Roboto';
     color:#E7E9FC;
    }
-
+   a {
+    text-decoration: none;
+  }
    /* Portfolio */
    .portfolio{ display: none};
 
