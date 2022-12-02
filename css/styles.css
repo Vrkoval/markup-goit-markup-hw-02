@@ -157,7 +157,29 @@ text-decoration: none;
    
    /* Portfolio */
    .portfolio{ display: none};
-
+   porfolio-button {
+    background-color: #E7E9FC;
+    border: 1px solid #E7E9FC;
+    color: var(--link-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+        cursor: pointer;
+}
+.porfolio-buttonblue {
+    background-color: var(--link-color);
+    border: 1px solid var(--link-color);
+      
+    color: var(--primary-white-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+        cursor: pointer;
+}
    .porfolio-button {
     background-color: #E7E9FC;
     border: 1px solid #E7E9FC;
@@ -171,11 +193,11 @@ text-decoration: none;
         cursor: pointer;
 }
 
-.porfolio-button:hover,
+/* .porfolio-button:hover,
 .porfolio-button:focus {
     background-color: var(--link-color);
     color: var(--primary-white-color);
-} 
+}  */
 
 .examples title {
     color: var(--title-text-color);
