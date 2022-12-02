@@ -70,7 +70,11 @@ color: var(--primary-white-color);
     cursor: pointer;
     
 }
-.button:hover, .button:focus {color: #404BBf;}
+.button:hover, .button:focus {color: var(--primary-white-color);
+background-color: var(--link-color);}
+.button:active {background-color: #404BBF;
+
+}
 
 
 .feature{display: none;}
